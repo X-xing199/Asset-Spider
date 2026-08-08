@@ -343,18 +343,6 @@ AssetSpider/
 ### Q: 如何自定义扫描行为？
 **A:** 编辑 `config/settings.json`（线程数/黑名单/过滤规则/Bing 语法），或编辑 `config/headers.txt`（请求头），无需改代码。主菜单 [5] 配置管理可查看/热重载。
 
-### Q: 如何打包成 EXE？
-**A:**
-```bash
-pyinstaller --noconfirm --clean --onefile --console --name AssetSpider \
-  --icon "AssetSpider.ico" \
-  --hidden-import openai --hidden-import requests \
-  --hidden-import core --hidden-import engines --hidden-import scanners \
-  --hidden-import combo --hidden-import menu \
-  --paths . "AssetSpider.py"
-# 打包后把 config 文件夹复制到 exe 同级目录
-```
-
 ### Q: 扫描速度慢怎么办？
 **A:** 1. 调整 `settings.json` 线程数；2. 端口扫描选高危模式；3. 使用更小的字典文件。
 
@@ -407,7 +395,7 @@ pyinstaller --noconfirm --clean --onefile --console --name AssetSpider \
 
 | 项目 | 信息 |
 |------|------|
-| **作者** | 雪山盟 (wx_0x6c6f7665) |
+| **作者** | Z3r0 (wx_0x6c6f7665) |
 | **GitHub** | https://github.com/X-xing199/Asset-Spider |
 | **微信** | wx_0x6c6f7665 |
 | **版本** | v2.1 |
@@ -417,7 +405,7 @@ pyinstaller --noconfirm --clean --onefile --console --name AssetSpider \
 
 <div align="center">
 
-**Made with ❤️ by 雪山盟**
+**Made with ❤️ by Z3r0**
 
 **Star ⭐️ if you find this project helpful!**
 
