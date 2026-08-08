@@ -612,7 +612,7 @@ pyinstaller --onefile --console --icon=AssetSpider.ico --name=AssetSpider --hidd
 
 | 项目 | 信息 |
 |------|------|
-| **作者** | 雪山盟 (wx_0x6c6f7665) |
+| **作者** | 空白 |
 | **GitHub** | https://github.com/X-xing199/Asset-Spider |
 | **微信** | wx_0x6c6f7665 |
 | **版本** | v2.1 |
@@ -622,7 +622,7 @@ pyinstaller --onefile --console --icon=AssetSpider.ico --name=AssetSpider --hidd
 
 <div align="center">
 
-**Made with ❤️ by 雪山盟**
+**Made with ❤️ by 空白**
 
 **Star ⭐️ if you find this project helpful!**
 
